@@ -16,7 +16,6 @@ this.setState({term:event.target.value});
 }
 
 onFormSubmit(event){
-  console.log('hi');
   event.preventDefault();
 
   this.props.fetchWeather(this.state.term);
