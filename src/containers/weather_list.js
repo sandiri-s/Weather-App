@@ -13,7 +13,7 @@ renderWeather(cityData){
 
   return(
     <tr key={name} >
-      <td ><GoogleMap lon={lon} lat={lat}/></td>
+      <td >{name}</td>
       <td><Chart property = {temps} color="red" units="K"/></td>
       <td><Chart property = {humidity} color="orange" units ="hPa" /></td>
       <td><Chart property = {pressure} color="green" units ="%" /></td>
